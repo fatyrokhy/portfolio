@@ -10,9 +10,10 @@
     rel="stylesheet"/>
 </head>
 <body>
-    <div class="grid grid-col-1">
-        <nav>
-            <ul class="w-[50%] grid grid-col-1 gap-2">
+    <div class="w-full overflow-x-hidden grid grid-cols-1 gap-2 ">
+        <div class="absolute bg-[#DFD3CA] w-32 h-[55rem]"></div>
+        <nav class="py-5 px-3">
+            <ul class="w-[50%] grid grid-cols-5 gap-2 mx-auto text-gray-700 text-center font-semibold">
                 <li>Introduction</li>
                 <li>Education</li>
                 <li>Projets personnels</li>
@@ -20,6 +21,27 @@
                 <li>Contact</li>
             </ul>
         </nav>
+        <!-- titre -->
+         <div class="grid grid-cols-[22%_auto_22%]  h-[28rem]">
+            <div class="flex gap-2 relative ">
+                <div class="absolute left-28 bottom-0 h-52 border-l-4 border-blue-500"></div>
+                <div class="absolute left-[98px] top-[220px] text-blue-500 text-3xl"><i class="ri-arrow-up-fill"></i></div>
+                 <div class="absolute bottom-16 left-0 w-52 border-t-4 border-red-500"></div>
+                 <div class="absolute bottom-12 left-48 text-red-500 text-3xl"><i class="ri-arrow-right-fill"></i></div>
+                <div class="absolute bottom-[50px] left-[100px] text-2xl"><i class="ri-shining-2-fill"></i></div>
+            </div>
+            <div class="text-start font-semibold mt-40 left-0 flex-col space-y-2 p-2  w-auto h-24 rounded shadow-md shadow-slate-200 bg-[#DFD3CA]">
+                <p class="text-5xl">Faty Rokhy Niasse</p>
+                <p>Portfolio</p>
+            </div>
+            <div class="flex gap-2 relative ">
+                <div class="absolute right-28 top-0 h-52 border-l-4 border-blue-500"></div>
+                <div class="absolute left-[124px] top-[62px] text-red-500 text-3xl"><i class="ri-arrow-left-fill"></i></i></div>
+                 <div class="absolute top-20 right-5 w-52 border-t-4 border-red-500"></div>
+                 <div class="absolute top-[180px] right-[99px] text-blue-500 text-3xl"><i class="ri-arrow-down-fill"></i></div>
+                <div class="absolute top-[64px] right-[100px] text-2xl"><i class="ri-shining-2-fill"></i></div>
+            </div>
+         </div>
     </div>
 </body>
 </html>
